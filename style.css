@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.page{
+	width: 100%;
+
+	 background: linear-gradient(to top,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%) ,url(Monthly-Expenditure-of-a-Middle-Class-Family-in-India-1024x682.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    user-select: none;
+}
+.nav{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+}
+.icon{
+	width: 200px;
+	height: 70px;
+	float: left;
+}
+.logo{
+	margin-top: 27px;
+	color: royalblue;
+	font-family: sans-serif;
+
+
+}
+.logo h1{
+	font-size: 32px;
+}
+.logo span{
+	color: white;
+
+}
+.menu{
+	width: 400px;
+	height: 70px;
+	float: left;
+
+}
+ul{
+	float: left;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+ul li{
+	list-style: none;
+	margin-left: 40px;
+	margin-top: 38px;
+	font-size: 24px;
+    }
+
+ul li a{
+	color: ghostwhite;
+	font-weight: ;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 8px;
+}
+ul li a.active,
+ul li a:hover{
+	background: royalblue;
+	color: white;
+	border-radius: 8px;
+	width: auto;
+	
+	transition: .5s;
+}
+.src{
+	position: absolute;
+
+	right: 6%;
+	bottom: 90.5%;
+}
+.src input{
+	padding: 10px;
+	border-radius: 10px;
+	margin: 0	;
+	color: royalblue;
+	border: 2px solid white;
+	background: transparent;
+}
+.src input:hover{
+ color: white;
+ cursor: pointer;
+}
+.src button{
+	padding: 10px;
+	border-radius: 10px;
+	color: royalblue;
+
+}
+.src button:hover{
+	background: royalblue;
+	color: white;
+
+}
+
+.btn{
+	margin-left: 2px;
+	margin-right: 30px;
+}
+.content{
+	position: absolute;
+	top: 35%;
+  left: 4%;
+}
+.content h1{
+	color: white;
+	font-weight: bold;
+	font-size: 45px;
+	font-family: serif;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.content h3{
+	color: royalblue;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+
+}
+.content h5{
+	margin-top: 20px;
+	color: white;
+	font-size: 20px;
+}
+.visit{
+	position: absolute;
+	bottom: 8%;
+	left: 13%;
+	padding: 14px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: darkred;
+	background: white;
+	color: royalblue;
+	font-size: 18px;
+	border-color: white;
+	border:royalblue;
+	border-radius: 10px;
+;
+;
+}
+.visit:hover{
+	background: royalblue;
+	color: white;
+	transition: .5s;
+	cursor: pointer;
+}
+.login{
+	position: absolute;
+	top: 22%;
+	right: 6%;
+	border: 3px solid royalblue;
+	width: 355px;
+	height: 400px;
+	background: rgba(0, 0, 0.1, 0.1);
+	border-radius: 10px;
+
+}
+form h1:hover{
+	background: royalblue;
+	color: white;
+	transition: .5s;
+	cursor: pointer;
+}
+form h1{
+    color: royalblue;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid royalblue;
+    width: 280px;
+   margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    background: white;
+    border-radius: 10px;
+}
+.in input{
+	color: white;
+	padding: 12px;
+	border-bottom: 2px solid royalblue;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+   background: transparent;
+   width: 250px;
+   margin-left: 25px;
+}
+.em{
+   margin-top: 25px;
+   margin-left: 12px;
+}
+.pass{
+margin-left: 12px;
+}
+.in button{
+	margin-top: 40px;
+	padding: 12px;
+	margin-left: 80px;
+	width: 250px;
+	background: royalblue;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	width: 200px;
+
+}
+.in button:hover{
+	background: white;
+	color: royalblue;
+	transition: .5s;
+	cursor: pointer;
+}
+.in h3{
+	color: white;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.in h4 a{
+	color: royalblue;
+	margin-left: 130px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+span{
+	color: white;
+}
+.in h5{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 10px;
+}
+::placeholder{
+	color: white;
+	font-size: 12px;
+	background: transparent;
+}
+.in input:hover{
+	color: white;
+	transition: .5s;
+}
+.visit a{
+	color: royalblue;
+	text-decoration: none;
+}
+.visit a:hover{
+	color: white;
+	text-decoration: none;
+	transition: .5s;
+}
